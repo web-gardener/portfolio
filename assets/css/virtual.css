@@ -1424,3 +1424,32 @@ a:hover, a:active {
 .theme-purple .theme-list li::before {
     border-color: #6f42c1;
 }
+
+.portfolio-item {
+    padding: 10px;
+}
+
+.portfolio-item .img-place {
+    position: relative;
+    border-radius: 5px;
+}
+
+.portfolio-item .img-caption {
+    position: absolute;
+    bottom: 0;
+    padding: 12px 16px;
+    width: 100%;
+    background-color: #323131;
+    color: #fff;
+    z-index: 11;
+}
+
+.portfolio-item .img-caption p {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.portfolio-item .img-caption p::before {
+    content: "\2014";
+    margin-right: 5px;
+}
